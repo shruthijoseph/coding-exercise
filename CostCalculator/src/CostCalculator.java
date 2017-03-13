@@ -5,6 +5,7 @@ public class CostCalculator{
 	 {
 		double finalPrice;
 		double newBasePrice;
+		//adding 5% flat markup to the base price
 		newBasePrice=bp+(0.05*bp);	
 		finalPrice=(newBasePrice)+((0.012*n*newBasePrice)+(mm*newBasePrice));
 		return finalPrice;
